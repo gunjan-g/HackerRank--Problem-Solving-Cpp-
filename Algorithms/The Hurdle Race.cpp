@@ -31,6 +31,7 @@ Sample Output 1:
 Explaination:
 Dan's character can jump a maximum of k=7 units, which is enough to cross all the hurdles:
 Because he can already jump all the hurdles, Dan needs to drink 0 doses.
+
 */
 
 #include <bits/stdc++.h>

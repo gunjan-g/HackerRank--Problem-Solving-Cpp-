@@ -1,4 +1,5 @@
 /* 
+
 Program Link:
 https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem
 
@@ -18,6 +19,7 @@ Sample Output:
 Explanation:
 Lily may go to the movies on days 20, 21, 22, and 23. We perform the following calculations to determine which days are beautiful:
 Only two days 20 and 22 are beautiful as |20-02|/6=3 and |22-22|/6=0. Thus we print two as our answer
+
 */
 
 #include <bits/stdc++.h>

@@ -1,4 +1,5 @@
 /*
+
 Program Link:
 https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem
 
@@ -17,6 +18,7 @@ STDIN             Function
 
 Sample Output:
 92
+
 */
 
 #include <bits/stdc++.h>

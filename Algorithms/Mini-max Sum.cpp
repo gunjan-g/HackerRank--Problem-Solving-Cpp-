@@ -1,4 +1,6 @@
-/* Program Link:
+/* 
+
+Program Link:
 https://www.hackerrank.com/challenges/mini-max-sum/problem
 
 Aim:
@@ -18,6 +20,7 @@ Sample Input:
 
 Sample Output:
 10 14
+
 */
 
 #include <bits/stdc++.h>

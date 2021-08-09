@@ -1,25 +1,26 @@
-/* 
+/*
 
 Program Link:
-https://www.hackerrank.com/challenges/a-very-big-sum/problem
+https://www.hackerrank.com/challenges/simple-array-sum/problem
 
 Ques.
-In this challenge, you are required to calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large.
+Given an array of integers, find the sum of its elements.
+For example, if the array ar= [1,2,3], 1+2+3=6, so return 6.
 
-Function Description
-Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
-aVeryBigSum has the following parameter(s):
-- int ar[n]: an array of integers .
-
-Return
-- long: the sum of all array elements
+Function Description:
+Complete the simpleArraySum function in the editor below. It must return the sum of the 
+array elements as an integer.
+simpleArraySum has the following parameter(s)- ar: an array of integers
 
 Sample Input:
-5
-1000000001 1000000002 1000000003 1000000004 1000000005
+6
+1 2 3 4 10 11
 
-Output:
-5000000015
+Sample Output:
+31
+
+Explanation:
+We print the sum of the array's elements: 1+2+3+4+10+11 =31.
 
 */
 
@@ -32,19 +33,21 @@ string rtrim(const string &);
 vector<string> split(const string &);
 
 /*
- * Complete the 'aVeryBigSum' function below.
+ * Complete the 'simpleArraySum' function below.
  *
- * The function is expected to return a LONG_INTEGER.
- * The function accepts LONG_INTEGER_ARRAY ar as parameter.
+ * The function is expected to return an INTEGER.
+ * The function accepts INTEGER_ARRAY ar as parameter.
  */
 
-long aVeryBigSum(vector<long> ar) {
-    int i;
-    long sum=0;   //when vector is of long size, take the variable array of datatype long, so that we can store tha value
- for(i=0;i<ar.size();i++){
-     sum+=ar[i];         //adding the values
- }
- return sum;
+int simpleArraySum(vector<int> ar) {
+   int sum=0;
+   
+   //adding all the elements of array
+   for(int i=0;i<ar.size();i++){
+      sum+=ar[i];
+    }
+
+   return sum;
 }
 
 int main()
@@ -61,15 +64,15 @@ int main()
 
     vector<string> ar_temp = split(rtrim(ar_temp_temp));
 
-    vector<long> ar(ar_count);
+    vector<int> ar(ar_count);
 
     for (int i = 0; i < ar_count; i++) {
-        long ar_item = stol(ar_temp[i]);
+        int ar_item = stoi(ar_temp[i]);
 
         ar[i] = ar_item;
     }
 
-    long result = aVeryBigSum(ar);
+    int result = simpleArraySum(ar);
 
     fout << result << "\n";
 
