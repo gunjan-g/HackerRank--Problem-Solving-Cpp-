@@ -50,8 +50,9 @@ int alternatingCharacters(string s) {
     for(int i=1;s[i]!='\0';i++){
         if(s[i]==s[i-1]) count++;
    }
-
-   return count;   //return the no of alternating characters
+   
+   //return the no of alternating characters
+   return count;  
 }
 
 int main()
