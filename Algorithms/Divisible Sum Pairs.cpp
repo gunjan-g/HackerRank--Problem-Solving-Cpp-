@@ -1,4 +1,6 @@
-/* Program Link:
+/* 
+
+Program Link:
 https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
 
 Ques.
@@ -18,7 +20,8 @@ STDIN           Function
 1 3 2 6 1 2     ar = [1, 3, 2, 6, 1, 2]
 
 Sample Output:
- 5
+5
+
 */
 
 #include <bits/stdc++.h>

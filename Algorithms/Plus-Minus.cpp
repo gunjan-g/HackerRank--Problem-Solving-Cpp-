@@ -1,4 +1,6 @@
-/* Program Link:
+/* 
+
+Program Link:
 https://www.hackerrank.com/challenges/plus-minus/problem
 
 Aim:
@@ -30,6 +32,7 @@ Sample Output:
 Explanation:
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
 The proportions of occurrence are positive: 3/5= 0.500000, negative: 2/5=0.333333 and zeros: 1/6=0.166667.
+
 */
 
 #include <bits/stdc++.h>

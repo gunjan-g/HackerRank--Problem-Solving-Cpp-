@@ -1,4 +1,5 @@
 /*
+
 Programming Link:
 https://www.hackerrank.com/challenges/icecream-parlor/problem
 
@@ -35,6 +36,7 @@ The first time, they pool together m=4 dollars. Of the five flavors available th
 flavors 1 and 4 have a total cost of 1+3=4.
 The second time, they pool together m=4 dollars. Of the four flavors available that day, 
 flavors 1 and 2 have a total cost of 2+2=4.
+
 */
 
 #include <bits/stdc++.h>
